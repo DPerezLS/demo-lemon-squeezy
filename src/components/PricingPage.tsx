@@ -5,12 +5,13 @@ import './PricingPage.css';
 // ========================================
 // 🔧 CONFIGURACIÓN DE PLANES DE SUSCRIPCIÓN
 // ========================================
-// IMPORTANTE: Reemplaza los variant IDs con los IDs reales de tu cuenta de Lemon Squeezy
+// IMPORTANTE: Reemplaza las checkout URLs con las URLs reales de tu cuenta de Lemon Squeezy
 //
-// Cómo obtener tus Variant IDs:
+// Cómo obtener tus Checkout URLs:
 // 1. Ve a https://app.lemonsqueezy.com/products
 // 2. Selecciona tu producto
-// 3. Copia el "Variant ID" que aparece en la página
+// 3. Haz clic en "Share" o "Get checkout link"
+// 4. Copia la URL completa que empieza con https://tutienda.lemonsqueezy.com/buy/...
 //
 // Guías de configuración:
 // - Quick Start: Ver QUICK_START.md
@@ -20,7 +21,7 @@ import './PricingPage.css';
 const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'basic',
-    variantId: '1073875', // 👈 PASO 1: Reemplaza con tu variant ID del Plan Básico
+    checkoutUrl: 'https://danielperezorg.lemonsqueezy.com/buy/3814aa14-47c7-4c99-a0a5-85709c0eda80', // 👈 Checkout link del Plan Básico
     name: 'Básico',
     description: 'Perfecto para empezar',
     price: 34.707,
@@ -34,7 +35,7 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   },
   {
     id: 'pro',
-    variantId: '1073882', // 👈 PASO 2: Reemplaza con tu variant ID del Plan Pro
+    checkoutUrl: 'https://danielperezorg.lemonsqueezy.com/buy/b3e270e4-c313-48fb-9b5a-158ec2c0d3ee', // 👈 Checkout link del Plan Pro
     name: 'Pro',
     description: 'Para profesionales',
     price: 111.808,
@@ -51,7 +52,7 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   },
   {
     id: 'enterprise',
-    variantId: '1073889', // 👈 PASO 3: Reemplaza con tu variant ID del Plan Enterprise
+    checkoutUrl: 'https://danielperezorg.lemonsqueezy.com/buy/9251af30-2f71-4e55-b725-2f304e9b6d55', // 👈 Checkout link del Plan Enterprise
     name: 'Enterprise',
     description: 'Para equipos grandes',
     price: 371.848,

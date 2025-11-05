@@ -10,7 +10,7 @@ export const ProductCard = ({ plan }: ProductCardProps) => {
   const handleSubscribe = async () => {
     try {
       await createCheckout({
-        variantId: plan.variantId,
+        checkoutUrl: plan.checkoutUrl,
         customData: {
           plan_name: plan.name,
         },
