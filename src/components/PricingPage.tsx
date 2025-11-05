@@ -2,12 +2,25 @@ import { ProductCard } from './ProductCard';
 import { SubscriptionPlan } from '../types/subscription';
 import './PricingPage.css';
 
-// Ejemplo de planes de suscripción
-// IMPORTANTE: Reemplaza estos IDs con los variant IDs reales de tu cuenta de Lemon Squeezy
+// ========================================
+// 🔧 CONFIGURACIÓN DE PLANES DE SUSCRIPCIÓN
+// ========================================
+// IMPORTANTE: Reemplaza los variant IDs con los IDs reales de tu cuenta de Lemon Squeezy
+//
+// Cómo obtener tus Variant IDs:
+// 1. Ve a https://app.lemonsqueezy.com/products
+// 2. Selecciona tu producto
+// 3. Copia el "Variant ID" que aparece en la página
+//
+// Guías de configuración:
+// - Quick Start: Ver QUICK_START.md
+// - Guía completa: Ver LEMON_SQUEEZY_SETUP.md
+// ========================================
+
 const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'basic',
-    variantId: 'YOUR_BASIC_VARIANT_ID', // Reemplaza con tu variant ID
+    variantId: 'YOUR_BASIC_VARIANT_ID', // 👈 PASO 1: Reemplaza con tu variant ID del Plan Básico
     name: 'Básico',
     description: 'Perfecto para empezar',
     price: 9,
@@ -21,7 +34,7 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   },
   {
     id: 'pro',
-    variantId: 'YOUR_PRO_VARIANT_ID', // Reemplaza con tu variant ID
+    variantId: 'YOUR_PRO_VARIANT_ID', // 👈 PASO 2: Reemplaza con tu variant ID del Plan Pro
     name: 'Pro',
     description: 'Para profesionales',
     price: 29,
@@ -38,7 +51,7 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   },
   {
     id: 'enterprise',
-    variantId: 'YOUR_ENTERPRISE_VARIANT_ID', // Reemplaza con tu variant ID
+    variantId: 'YOUR_ENTERPRISE_VARIANT_ID', // 👈 PASO 3: Reemplaza con tu variant ID del Plan Enterprise
     name: 'Enterprise',
     description: 'Para equipos grandes',
     price: 99,
