@@ -1,5 +1,5 @@
 import { ProductCard } from './ProductCard';
-import { SubscriptionPlan } from '../types/subscription';
+import type { SubscriptionPlan } from '../types/subscription';
 import './PricingPage.css';
 
 // ========================================

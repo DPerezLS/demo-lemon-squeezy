@@ -1,4 +1,4 @@
-import { SubscriptionPlan } from '../types/subscription';
+import type { SubscriptionPlan } from '../types/subscription';
 import { createCheckout } from '../services/lemonSqueezy';
 import './ProductCard.css';
 
