@@ -20,10 +20,10 @@ import './PricingPage.css';
 const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   {
     id: 'basic',
-    variantId: 'YOUR_BASIC_VARIANT_ID', // 👈 PASO 1: Reemplaza con tu variant ID del Plan Básico
+    variantId: '1073875', // 👈 PASO 1: Reemplaza con tu variant ID del Plan Básico
     name: 'Básico',
     description: 'Perfecto para empezar',
-    price: 9,
+    price: 34.707,
     interval: 'month',
     features: [
       'Hasta 10 proyectos',
@@ -34,10 +34,10 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   },
   {
     id: 'pro',
-    variantId: 'YOUR_PRO_VARIANT_ID', // 👈 PASO 2: Reemplaza con tu variant ID del Plan Pro
+    variantId: '1073882', // 👈 PASO 2: Reemplaza con tu variant ID del Plan Pro
     name: 'Pro',
     description: 'Para profesionales',
-    price: 29,
+    price: 111.808,
     interval: 'month',
     popular: true,
     features: [
@@ -51,10 +51,10 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
   },
   {
     id: 'enterprise',
-    variantId: 'YOUR_ENTERPRISE_VARIANT_ID', // 👈 PASO 3: Reemplaza con tu variant ID del Plan Enterprise
+    variantId: '1073889', // 👈 PASO 3: Reemplaza con tu variant ID del Plan Enterprise
     name: 'Enterprise',
     description: 'Para equipos grandes',
-    price: 99,
+    price: 371.848,
     interval: 'month',
     features: [
       'Todo lo de Pro',

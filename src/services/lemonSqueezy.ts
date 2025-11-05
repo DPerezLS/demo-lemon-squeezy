@@ -3,7 +3,7 @@
  * Handles checkout creation and redirects to Lemon Squeezy checkout page
  */
 
-const LEMON_SQUEEZY_CHECKOUT_URL = 'https://checkout.lemonsqueezy.com';
+const LEMON_SQUEEZY_CHECKOUT_URL = 'https://danielperezorg.lemonsqueezy.com';
 
 export interface CheckoutOptions {
   variantId: string;
